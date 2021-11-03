@@ -1,0 +1,28 @@
+name: Update Answers
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - name: Run Script
+        run: |
+          npm install axios -g
+          node ./data/update.js
+      - name: Commit
+        run: |
+          git config user.name "Liuming Chen"
+          git config user.email "51524534+let-lc@users.noreply.github.com"
+          git add .
+          git commit -m "github action: answer update"
+          git push
