@@ -17,7 +17,7 @@ jobs:
           node-version: "16"
       - name: Run Script
         run: |
-          npm install axios -g
+          npm install
           node ./data/update.js
       - name: Commit
         run: |
