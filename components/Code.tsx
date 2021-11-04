@@ -1,9 +1,9 @@
 import { PropsWithChildren } from "react";
 
 const Code = ({ children }: PropsWithChildren<{}>) => (
-  <span className="px-1 text-white bg-gray-700 rounded font-mono">
+  <code className="px-1 text-white bg-gray-700 rounded font-mono">
     {children}
-  </span>
+  </code>
 );
 
 export default Code;
