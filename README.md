@@ -11,13 +11,33 @@
 
 ## Request
 
-Send a `GET` request to [https://euler.haku.dev/api](https://euler.haku.dev/api) or [https://projecteuler.vercel.app/api](https://projecteuler.vercel.app/api) with query parameters `q` and `a`. (No HTTP method restriction, you can send a `POST` request if you want.)
+### Method 1
+
+Send any type `HTTP` request to [https://euler.haku.dev/api](https://euler.haku.dev/api) or [https://projecteuler.vercel.app/api](https://projecteuler.vercel.app/api) with query parameters `q` and `a`.
 
 `q` is the question number, and `a` is the answer, both required.
 
-> Example:
->
-> https://euler.haku.dev/api?q=1&a=123456
+**Example:** _(question 1; answer: 123456)_
+
+```shell
+https://projecteuler.vercel.app/api?q=1&a=123456
+# or
+https://euler.haku.dev/api?q=1&a=123456
+```
+
+### Method 2
+
+Send any type `HTTP` request to [https://euler.haku.dev/api/<question_number>/<answer\>](https://euler.haku.dev/api) or [https://projecteuler.vercel.app/api/<question_number>/<answer\>](https://projecteuler.vercel.app/api).
+
+`answer` should be URL-encoded if needed. E.g., `/` in the answer.
+
+**Example:** _(question 123; answer: 456/789)_
+
+```shell
+https://projecteuler.vercel.app/api/123/456%2F789
+# or
+https://euler.haku.dev/api/123/456%2F789
+```
 
 ## Response
 

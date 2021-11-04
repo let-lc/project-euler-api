@@ -28,35 +28,63 @@ const Home: NextPage<{ host: string }> = ({ host }) => {
           <hr className="pb-2 text-gray-700" />
           <div className="text-sm">
             <p>
-              Send a <Code>GET</Code> request to <Code>https://{host}/api</Code>
-            </p>
-            <p>
-              with query parameters <Code>q</Code> and <Code>a</Code>.
+              Send any type of <Code>HTTP</Code> request to{" "}
+              <Code>https://{host}/api</Code> with query parameters{" "}
+              <Code>q</Code> and <Code>a</Code>.
             </p>
             <p>
               <Code>q</Code> is the question number, and <Code>a</Code> is the
               answer.
             </p>
           </div>
-          <div className="px-1 font-mono text-sm text-left bg-gray-700 rounded-sm mt-2">
+          <div className="px-1 mt-2 font-mono text-sm text-left bg-gray-700 rounded-sm">
             <p className="text-[#FF9933]">Example:</p>
             <p className="text-white">https://{host}/api?q=1&a=123456</p>
           </div>
+          <p className="relative py-1 after:absolute after:h-px after:inset-x-0 after:bg-gray-700 after:top-1/2 after:z-0">
+            <span className="bg-black z-20 relative font-bold text-white px-12">
+              OR
+            </span>
+          </p>
+          <div className="text-sm">
+            <p>
+              Send any type of <Code>HTTP</Code> request to{" "}
+              <Code>
+                https://{host}/api/{"<question_number>"}/{"<answer>"}
+              </Code>
+              .
+            </p>
+            <p>
+              <Code>answer</Code> should be URL-encoded if needed. E.g.,{" "}
+              <Code>/</Code> in the answer.
+            </p>
+          </div>
+          <div className="px-1 mt-2 font-mono text-sm text-left bg-gray-700 rounded-sm">
+            <p className="text-[#FF9933]">Example:</p>
+            <p>question_number: 123; answer: 456/789</p>
+            <p className="text-white">https://{host}/api/123/456%2F789</p>
+          </div>
           <hr className="pb-2 mt-2 text-gray-700" />
           <div className="text-sm text-center">
-            <p className="text-white font-medium underline pb-1">RESPONSE</p>
+            <p className="pb-1 font-medium text-white underline">RESPONSE</p>
             <p>
-              <span className="text-[#FF9933] font-mono bg-gray-800 px-0.5 rounded-sm">1</span>
+              <span className="text-[#FF9933] font-mono bg-gray-800 px-0.5 rounded-sm">
+                1
+              </span>
               <span> - </span>
               <span>Correct</span>
             </p>
             <p>
-              <span className="text-[#FF9933] font-mono bg-gray-800 px-0.5 rounded-sm">0</span>
+              <span className="text-[#FF9933] font-mono bg-gray-800 px-0.5 rounded-sm">
+                0
+              </span>
               <span> - </span>
               <span>Incorrect</span>
             </p>
             <p>
-              <span className="text-[#FF9933] font-mono bg-gray-800 px-0.5 rounded-sm">?</span>
+              <span className="text-[#FF9933] font-mono bg-gray-800 px-0.5 rounded-sm">
+                ?
+              </span>
               <span> - </span>
               <span>Answer Not Found</span>
             </p>
