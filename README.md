@@ -65,7 +65,7 @@ A GitHub Action workflow will check the solution file on [projecteuler-solutions
 
 ## Issue
 
-If you solved a problem but it is not on [projecteuler-solutions]. You can send a pull request to that repository, and this project will update the answer automatically the second day after the pull request is merged.
+If you solved a problem but it is not on [projecteuler-solutions]. You can send a pull request to that repository, and this project will update the answer automatically in 12 hours after the pull request is merged.
 
 If your have the correct answer submitted to Project Euler and identical to the one on [projecteuler-solutions], but the API response you a `0` after calling it correctly. Please post an issue on this repository to let me know. I will work on a update to fix the issue.
 
