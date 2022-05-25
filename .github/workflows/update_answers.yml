@@ -18,7 +18,7 @@ jobs:
       - name: Run Script
         run: |
           npm install
-          node ./data/update.js
+          npm run scrape
       - name: Commit
         run: |
           git config user.name "Liuming Chen"
