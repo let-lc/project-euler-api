@@ -13,7 +13,7 @@ axios
     const start = lines.findIndex((line) => line.includes("1."));
     const end = lines.lastIndexOf("```");
     lines.slice(start, end).forEach((ans) => {
-      const parse = ans.split(/\.(.+)/);
+      const parse = ans.split(/\.(.*)/);
       answers[parse[0]] = parse.length > 1 ? parse[1].trim() : "";
     });
     fs.writeFileSync(
