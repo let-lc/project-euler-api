@@ -1,0 +1,6 @@
+{
+  "id": 717,
+  "published": 1590238800,
+  "title": "Summation of a Modular Formula",
+  "content": "<p>For an odd prime $p$, define $f(p) = \\left\\lfloor\\frac{2^{(2^p)}}{p}\\right\\rfloor\\bmod{2^p}$<br />\nFor example, when $p=3$, $\\lfloor 2^8/3\\rfloor = 85 \\equiv 5 \\pmod 8$ and so $f(3) = 5$.</p> \n\n<p>Further define $g(p) = f(p)\\bmod p$. You are given $g(31) = 17$.</p>\n\n<p>Now define $G(N)$ to be the summation of $g(p)$ for all odd primes less than $N$.<br />\nYou are given $G(100) = 474$ and $G(10^4) = 2819236$.</p>\n\n<p>Find $G(10^7)$</p>\n\n"
+}

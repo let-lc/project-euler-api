@@ -1,0 +1,6 @@
+{
+  "id": 798,
+  "published": 1652565600,
+  "title": "Card Stacking Game",
+  "content": "<p>\nTwo players play a game with a deck of cards which contains $s$ suits with each suit containing $n$ cards numbered from $1$ to $n$.</p>\n\n<p>\nBefore the game starts, a set of cards (which may be empty) is picked from the deck and placed face-up on the table, with no overlap. These are called the visible cards.</p>\n\n<p>\nThe players then make moves in turn.<br />\nA move consists of choosing a card X from the rest of the deck and placing it face-up on top of a visible card Y, subject to the following restrictions:</p>\n<ul>\n<li>X and Y must be the same suit;</li>\n<li>the value of X must be larger than the value of Y.</li>\n</ul>\n<p>\nThe card X then covers the card Y and replaces Y as a visible card.<br />\nThe player unable to make a valid move loses and play stops.</p>\n\n<p>\nLet $C(n, s)$ be the number of different initial sets of cards for which the first player will lose given best play for both players.</p>\n\n<p>\nFor example, $C(3, 2) = 26$ and $C(13, 4) \\equiv 540318329 \\pmod {1\\,000\\,000\\,007}$.</p>\n\n<p>\nFind $C(10^7, 10^7)$. Give your answer modulo $1\\,000\\,000\\,007$.</p>\n"
+}

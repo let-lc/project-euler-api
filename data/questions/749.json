@@ -1,0 +1,6 @@
+{
+  "id": 749,
+  "published": 1614441600,
+  "title": "Near Power Sums",
+  "content": "<p>\nA positive integer, $n$, is a <i>near power sum</i> if there exists a positive integer, $k$, such that the sum of the $k$th powers of the digits in its decimal representation is equal to either $n+1$ or $n-1$. For example 35 is a near power sum number because $3^2+5^2 = 34$.\n</p>\n<p>\nDefine $S(d)$ to be the sum of all near power sum numbers of $d$ digits or less. \nThen $S(2) = 110$ and $S(6) = 2562701$.\n</p>\n<p>\nFind $S(16)$.\n</p>\n"
+}

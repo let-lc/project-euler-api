@@ -1,0 +1,6 @@
+{
+  "id": 211,
+  "published": 1223082000,
+  "title": "Divisor Square Sum",
+  "content": "<p>For a positive integer <var>n</var>, let σ<sub>2</sub>(<var>n</var>) be the sum of the squares of its divisors. For example,</p>\n<div class=\"center\">σ<sub>2</sub>(10) = 1 + 4 + 25 + 100 = 130.</div>\n<p>Find the sum of all <var>n</var>, 0 &lt; <var>n</var> &lt; 64,000,000 such that σ<sub>2</sub>(<var>n</var>) is a perfect square.</p>\n"
+}

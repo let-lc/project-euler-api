@@ -1,0 +1,6 @@
+{
+  "id": 745,
+  "published": 1612065600,
+  "title": "Sum of Squares II",
+  "content": "<p>\nFor a positive integer, $n$, define $g(n)$ to be the maximum perfect square that divides $n$.<br />\nFor example, $g(18) = 9$, $g(19) = 1$.\n</p>\n<p>\nAlso define\n$$\\displaystyle\tS(N) = \\sum_{n=1}^N g(n)$$\n</p>\n<p>\nFor example, $S(10) = 24$ and $S(100) = 767$.\n</p>\n<p>\nFind $S(10^{14})$. Give your answer modulo $1\\,000\\,000\\,007$.\n</p>\n"
+}

@@ -1,0 +1,25 @@
+{
+  "extends": "next/core-web-vitals",
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "rules": {
+        "@next/next/no-img-element": "off",
+        "import/order": [
+          "error",
+          {
+            "groups": ["builtin", "external", "internal"],
+            "pathGroups": [
+              { "pattern": "react", "group": "external", "position": "before" },
+              { "pattern": "{next,next/*}", "group": "external", "position": "before" },
+              { "pattern": "@/**", "group": "external", "position": "after" }
+            ],
+            "pathGroupsExcludedImportTypes": ["react", "next"],
+            "newlines-between": "always",
+            "alphabetize": { "order": "asc", "caseInsensitive": true }
+          }
+        ]
+      }
+    }
+  ]
+}

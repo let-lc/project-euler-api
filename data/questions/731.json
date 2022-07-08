@@ -1,0 +1,6 @@
+{
+  "id": 731,
+  "published": 1603620000,
+  "title": "A Stoneham Number",
+  "content": "<p>\n$$A=\\sum_{i=1}^{\\infty} \\frac{1}{3^i 10^{3^i}}$$\n</p>\n<p>\nDefine $A(n)$ to be the 10 decimal digits from the $n$th digit onward. \nFor example, $A(100) = 4938271604$ and $A(10^8)=2584642393$.\n</p>\n<p>\nFind $A(10^{16})$\n</p>\n"
+}

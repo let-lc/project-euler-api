@@ -1,0 +1,6 @@
+{
+  "id": 482,
+  "published": 1411884000,
+  "title": "The incenter of a triangle",
+  "content": "<p>\nABC is an integer sided triangle with incenter I and perimeter p.<br />\nThe segments IA, IB and IC have integral length as well. \n</p>\n<p>\nLet L = p + |IA| + |IB| + |IC|. \n</p>\n<p>\nLet S(P) = <span style=\"font-size:larger;\"><span style=\"font-size:larger;\">∑</span></span> L for all such triangles where p ≤ P. For example, S(10<sup>3</sup>) = 3619.\n</p>\n<p>\nFind S(10<sup>7</sup>).\n</p>\n\n"
+}

@@ -1,0 +1,6 @@
+{
+  "id": 733,
+  "published": 1604764800,
+  "title": "Ascending subsequences",
+  "content": "<p>\nLet $a_i$ be the sequence defined by $a_i=153^i \\bmod 10\\,000\\,019$ for $i \\ge 1$.<br />\nThe first terms of $a_i$ are:\n$153, 23409, 3581577, 7980255, 976697, 9434375, \\dots$\n</p>\n<p>\nConsider the subsequences consisting of 4 terms in ascending order. For the part of the sequence shown above, these are:<br />\n$153, 23409, 3581577, 7980255$<br />\n$153, 23409, 3581577, 9434375$<br />\n$153, 23409, 7980255, 9434375$<br />\n$153, 23409, 976697, 9434375$<br />\n$153, 3581577, 7980255, 9434375$ and<br />\n$23409, 3581577, 7980255, 9434375$.\n</p>\n<p>\nDefine $S(n)$ to be the sum of the terms for all such subsequences within the first $n$ terms of $a_i$. Thus $S(6)=94513710$.<br />\nYou are given that $S(100)=4465488724217$.\n</p>\n<p>\nFind $S(10^6)$ modulo $1\\,000\\,000\\,007$.\n</p>\n"
+}

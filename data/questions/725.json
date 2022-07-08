@@ -1,0 +1,6 @@
+{
+  "id": 725,
+  "published": 1599926400,
+  "title": "Digit sum numbers",
+  "content": "<p>\nA number where one digit is the sum of the <b>other</b> digits is called a <i>digit sum number</i> or DS-number for short. For example, 352, 3003 and 32812 are DS-numbers.\n</p>\n<p>\nWe define $S(n)$ to be the sum of all DS-numbers of $n$ digits or less.\n</p>\n<p>\nYou are given $S(3) = 63270$ and $S(7) = 85499991450$.\n</p>\n<p>\nFind $S(2020)$. Give your answer modulo $10^{16}$.\n</p>\n"
+}

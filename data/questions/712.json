@@ -1,0 +1,6 @@
+{
+  "id": 712,
+  "published": 1587247200,
+  "title": "Exponent Difference",
+  "content": "<p>\nFor any integer $n&gt;0$ and prime number $p,$ define $\\nu_p(n)$ as the greatest integer $r$ such that $p^r$ divides $n$. \n</p>\n<p>\nDefine $$D(n, m)  = \\sum_{p \\text{ prime}} \\left| \\nu_p(n) - \\nu_p(m)\\right|.$$ For example, $D(14,24) = 4$.\n</p>\n<p>\nFurthermore, define $$S(N) = \\sum_{1 \\le n, m \\le N} D(n, m).$$ You are given $S(10) = 210$ and $S(10^2) = 37018$.\n</p>\n<p>\nFind $S(10^{12})$. Give your answer modulo $1\\,000\\,000\\,007$.\n</p>\n"
+}

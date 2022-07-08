@@ -1,0 +1,6 @@
+{
+  "id": 728,
+  "published": 1601773200,
+  "title": "Circle of Coins",
+  "content": "<p>Consider $n$ coins arranged in a circle where each coin shows heads or tails. A move consists of turning over $k$ consecutive coins: tail-head or head-tail. Using a sequence of these moves the objective is to get all the coins showing heads.</p>\n\n<p>Consider the example, shown below, where $n=8$ and $k=3$ and the initial state is one coin showing tails (black). The example shows a solution for this state.</p>\n\n<div class=\"center\">\n<img src=\"project/images/p728_coin_circle.jpg\" class=\"dark_img\" alt=\"\" /></div>\n\n<p>For given values of $n$ and $k$ not all states are solvable.  Let $F(n,k)$ be the number of states that are solvable. You are given that $F(3,2) = 4$, $F(8,3) = 256$ and $F(9,3) = 128$.</p>\n\n<p>Further define:</p>\n<div class=\"center\">\n$\\displaystyle\tS(N) = \\sum_{n=1}^N\\sum_{k=1}^n F(n,k)$</div>\n\n<p>You are also given that $S(3) = 22$, $S(10) = 10444$ and $S(10^3) \\equiv 853837042 \\pmod{1\\,000\\,000\\,007}$</p>\n\n<p>Find $S(10^7)$. Give your answer modulo $1\\,000\\,000\\,007$</p>\n\n"
+}

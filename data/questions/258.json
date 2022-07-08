@@ -1,0 +1,6 @@
+{
+  "id": 258,
+  "published": 1254556800,
+  "title": "A lagged Fibonacci sequence",
+  "content": "<p>A sequence is defined as:</p>\n<p>\n</p><ul><li><var>g</var><sub><var>k</var></sub> = 1, for 0 ≤ <var>k</var> ≤ 1999</li>\n<li><var>g</var><sub><var>k</var></sub> = <var>g</var><sub><var>k</var>-2000</sub> + <var>g</var><sub><var>k</var>-1999</sub>, for <var>k</var> ≥ 2000.\n</li></ul><p>Find <var>g</var><sub><var>k</var></sub> mod 20092010 for <var>k</var> = 10<sup>18</sup>.</p>\n"
+}

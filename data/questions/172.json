@@ -1,0 +1,6 @@
+{
+  "id": 172,
+  "published": 1197709200,
+  "title": "Investigating numbers with few repeated digits",
+  "content": "<p>How many 18-digit numbers <var>n</var> (without leading zeros) are there such that no digit occurs more than three times in <var>n</var>?</p>\n"
+}

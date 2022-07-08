@@ -1,0 +1,6 @@
+{
+  "id": 646,
+  "published": 1544328000,
+  "title": "Bounded Divisors",
+  "content": "<p>\nLet $n$ be a natural number and  $p_1^{\\alpha_1}\\cdot p_2^{\\alpha_2}...p_k^{\\alpha_k}$ its prime factorisation.<br />\nDefine the <b>Liouville function</b> $\\lambda(n)$ as $\\lambda(n) = (-1)^{\\sum\\limits_{i=1}^{k}\\alpha_i}$.<br />\n(i.e. $-1$ if the sum of the exponents $\\alpha_i$ is odd and $1$ if the sum of the exponents is even. )<br />\nLet $S(n,L,H)$  be the sum $\\lambda(d) \\cdot d$ over all divisors $d$ of $n$ for which $L \\leq d \\leq H$.\n</p>\n<p>\nYou are given:<br />\n$\\bullet\\, S(10! , 100, 1000) = 1457$<br />\n$\\bullet\\, S(15!,  10^3, 10^5) = -107974$<br />\n$\\bullet\\, S(30!,10^8, 10^{12}) = 9766732243224$.<br /></p>\n<p>\nFind $S(70!,10^{20}, 10^{60})$ and give your answer modulo $1\\,000\\,000\\,007$.\n</p>\n\n"
+}

@@ -1,0 +1,6 @@
+{
+  "id": 757,
+  "published": 1621094400,
+  "title": "Stealthy Numbers",
+  "content": "<p>\nA positive integer $N$ is <dfn>stealthy</dfn>, if there exist positive integers $a$, $b$, $c$, $d$ such that $ab = cd = N$ and $a+b = c+d+1$.<br />\nFor example, $36 = 4\\times 9 = 6\\times 6$ is stealthy.\n</p>\n<p>\nYou are also given that there are 2851 stealthy numbers not exceeding $10^6$.\n</p>\n<p>\nHow many stealthy numbers  are there that don't exceed $10^{14}$?\n</p>\n"
+}

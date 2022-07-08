@@ -1,0 +1,6 @@
+{
+  "id": 635,
+  "published": 1535220000,
+  "title": "Subset sums",
+  "content": "<p>\nLet $A_q(n)$ be the number of subsets, $B$, of the set $\\{1, 2, ..., q \\cdot n\\}$ that satisfy two conditions:<br />\n1) $B$ has exactly $n$ elements;<br />\n2) the sum of the elements of $B$ is divisible by $n$.\n</p>\n<p>\nE.g. $A_2(5)=52$ and $A_3(5)=603$.\n</p>\nLet $S_q(L)$ be $\\sum A_q(p)$ where the sum is taken over all primes $p \\le L$.<br />\nE.g. $S_2(10)=554$, $S_2(100)$ mod $1\\,000\\,000\\,009=100433628$ and<br /> $S_3(100)$ mod $1\\,000\\,000\\,009=855618282$.\n\n<p>\nFind $S_2(10^8)+S_3(10^8)$. Give your answer modulo $1\\,000\\,000\\,009$.\n</p>\n\n\n"
+}

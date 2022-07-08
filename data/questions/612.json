@@ -1,0 +1,6 @@
+{
+  "id": 612,
+  "published": 1508630400,
+  "title": "Friend numbers",
+  "content": "<p>\nLet's call two numbers  <i>friend numbers</i> if their representation in base 10 has at least one common digit.<br /> E.g. 1123 and 3981 are friend numbers. \n</p>\n<p>\nLet $f(n)$ be the number of pairs $(p,q)$ with $1\\le p \\lt q \\lt n$ such that $p$ and $q$ are friend numbers.<br />\n$f(100)=1539$.\n</p>\n<p>\nFind $f(10^{18})$ mod $1000267129$.\n</p>\n"
+}

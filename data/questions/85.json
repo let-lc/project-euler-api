@@ -1,0 +1,6 @@
+{
+  "id": 85,
+  "published": 1103306400,
+  "title": "Counting rectangles",
+  "content": "<p>By counting carefully it can be seen that a rectangular grid measuring 3 by 2 contains eighteen rectangles:</p>\n<div class=\"center\">\n<img src=\"project/images/p085.png\" class=\"dark_img\" alt=\"\" /></div>\n<p>Although there exists no rectangular grid that contains exactly two million rectangles, find the area of the grid with the nearest solution.</p>\n\n"
+}

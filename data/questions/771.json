@@ -1,0 +1,6 @@
+{
+  "id": 771,
+  "published": 1636203600,
+  "title": "Pseudo Geometric Sequences",
+  "content": "<p>\nWe define a <i>pseudo-geometric sequence</i> to be a finite sequence $a_0, a_1, \\dotsc, a_n$ of positive integers, satisfying the following conditions:\n</p><ul>\n<li>$n \\geq 4$, i.e. the sequence has at least 5 terms.</li>\n<li>$0 &lt; a_0 &lt; a_1 &lt; \\dotsc &lt; a_n$, i.e. the sequence is strictly increasing.</li>\n<li>$| a_i^2 - a_{i - 1}a_{i + 1} | \\le 2$ for $1 \\le i \\le n-1$.</li>\n</ul>\n<p>\nLet $G(N)$ be the number of different pseudo-geometric sequences whose terms do not exceed $N$.<br />\nFor example, $G(6) = 4$, as the following $4$ sequences give a complete list:\n</p><center>$1, 2, 3, 4, 5 \\qquad 1, 2, 3, 4, 6 \\qquad 2, 3, 4, 5, 6 \\qquad 1, 2, 3, 4, 5, 6$ </center>\n<p>\nAlso, $G(10) = 26$, $G(100) = 4710$ and $G(1000) = 496805$.</p>\n<p>\nFind $G(10^{18})$. Give your answer modulo $1\\,000\\,000\\,007$.</p>\n"
+}

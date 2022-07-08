@@ -1,0 +1,6 @@
+{
+  "id": 736,
+  "published": 1606611600,
+  "title": "Paths to Equality",
+  "content": "<p>Define two functions on lattice points:</p>\n<center>$r(x,y) = (x+1,2y)$</center>\n<center>$s(x,y) = (2x,y+1)$</center>\n<p>A <i>path to equality</i> of length $n$ for a pair $(a,b)$ is a sequence $\\Big((a_1,b_1),(a_2,b_2),\\ldots,(a_n,b_n)\\Big)$, where:</p>\n<ul><li>$(a_1,b_1) = (a,b)$</li>\n<li>$(a_k,b_k) = r(a_{k-1},b_{k-1})$ or $(a_k,b_k) = s(a_{k-1},b_{k-1})$ for $k &gt; 1$</li>\n<li>$a_k \\ne b_k$ for $k &lt; n$</li>\n<li>$a_n = b_n$</li>\n</ul><p>$a_n = b_n$ is called the <i>final value</i>.</p>\n<p>For example,</p>\n<center>$(45,90)\\xrightarrow{r} (46,180)\\xrightarrow{s}(92,181)\\xrightarrow{s}(184,182)\\xrightarrow{s}(368,183)\\xrightarrow{s}(736,184)\\xrightarrow{r}$</center>\n<center>$(737,368)\\xrightarrow{s}(1474,369)\\xrightarrow{r}(1475,738)\\xrightarrow{r}(1476,1476)$</center>\n<p>This is a path to equality for $(45,90)$ and is of length 10 with final value 1476. There is no path to equality of $(45,90)$ with smaller length.</p>\n<p>Find the unique path to equality for $(45,90)$ with smallest <b>odd</b> length. Enter the final value as your answer.</p>\n\n"
+}
