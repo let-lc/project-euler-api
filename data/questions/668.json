@@ -1,0 +1,6 @@
+{
+  "id": 668,
+  "published": 1556992800,
+  "title": "Square root smooth Numbers",
+  "content": "<p>\nA positive integer is called <i>square root smooth</i> if all of its prime factors are strictly less than its square root.<br />\nIncluding the number $1$, there are $29$ square root smooth numbers not exceeding $100$.\n</p>\n<p>\nHow many square root smooth numbers are there not exceeding $10\\,000\\,000\\,000$?</p>\n"
+}

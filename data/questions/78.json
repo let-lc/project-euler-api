@@ -1,0 +1,6 @@
+{
+  "id": 78,
+  "published": 1094835600,
+  "title": "Coin partitions",
+  "content": "<p>Let p(<i>n</i>) represent the number of different ways in which <i>n</i> coins can be separated into piles. For example, five coins can be separated into piles in exactly seven different ways, so p(5)=7.</p>\n<div class=\"margin_left\">\nOOOOO<br />\nOOOO   O<br />\nOOO   OO<br />\nOOO   O   O<br />\nOO   OO   O<br />\nOO   O   O   O<br />\nO   O   O   O   O\n</div>\n<p>Find the least value of <i>n</i> for which p(<i>n</i>) is divisible by one million.</p>\n\n"
+}

@@ -1,0 +1,6 @@
+{
+  "id": 748,
+  "published": 1613826000,
+  "title": "Upside down Diophantine equation",
+  "content": "<p>\nUpside Down is a modification of the famous Pythagorean equation:\n\\begin{align}\n\\frac{1}{x^2}+\\frac{1}{y^2}=\\frac{13}{z^2}\n\\end{align}\n</p>\n<p>\nA solution $(x,y,z)$  to this equation with $x,y$ and $z$ positive integers is a primitive solution if $\\gcd(x,y,z)=1$.\n</p>\n<p>\nLet $S(N)$ be the sum of $x+y+z$ over primitive Upside Down solutions such that $1 \\leq x,y,z \\leq N$ and $x \\le y$. <br />\nFor $N=100$ the primitive solutions are $(2,3,6)$ and $(5,90,18)$, thus $S(10^2)=124$.<br />\nIt can be checked that $S(10^3)=1470$ and $S(10^5)=2340084$.\n</p>\n<p>\nFind $S(10^{16})$ and give the last 9 digits as your answer.\n</p>\n"
+}

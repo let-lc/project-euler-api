@@ -1,0 +1,6 @@
+{
+  "id": 788,
+  "published": 1646496000,
+  "title": "Dominating Numbers",
+  "content": "<p>\nA <i>dominating number</i> is a positive integer that has more than half of its digits equal.\n</p>\n<p>\nFor example, $2022$ is a dominating number because three of its four digits are equal to $2$. But $2021$ is not a dominating number.\n</p>\n<p>\nLet $D(N)$ be how many dominating numbers are less than $10^N$.\nFor example, $D(4) = 603$ and $D(10) = 21893256$.\n</p>\n<p>\nFind $D(2022)$. Give your answer modulo $1\\,000\\,000\\,007$.\n</p>\n"
+}

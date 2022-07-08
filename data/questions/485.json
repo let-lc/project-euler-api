@@ -1,0 +1,6 @@
+{
+  "id": 485,
+  "published": 1413644400,
+  "title": "Maximum number of divisors",
+  "content": "<p>\nLet d(n) be the number of divisors of n.<br />\nLet M(n,k) be the maximum value of d(j) for n ≤ j ≤ n+k-1.<br />\nLet S(u,k) be the sum of M(n,k) for 1 ≤ n ≤ u-k+1.\n</p>\n<p>\nYou are given that S(1000,10)=17176.\n</p>\n<p>\nFind S(100 000 000,100 000).\n</p>\n\n\n\n"
+}

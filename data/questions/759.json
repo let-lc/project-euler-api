@@ -1,0 +1,6 @@
+{
+  "id": 759,
+  "published": 1623535200,
+  "title": "A squared recurrence relation",
+  "content": "<p>The function $f$ is defined for all positive integers as follows:</p>\n\\begin{align*}\nf(1) &amp;=  1\\\\\nf(2n) &amp;= 2f(n)\\\\\nf(2n+1) &amp;= 2n+1 + 2f(n)+\\tfrac 1n f(n)\n\\end{align*}\n<p>It can be proven that $f(n)$ is integer for all values of $n$.</p>\n\n<p>The function $S(n)$ is defined as $S(n) = \\displaystyle \\sum_{i=1}^n f(i) ^2$.</p>\n<p>For example, $S(10)=1530$ and $S(10^2)=4798445$.</p>\n\n<p>Find $S(10^{16})$. Give your answer modulo $1\\,000\\,000\\,007$.</p>\n\n"
+}

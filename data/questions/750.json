@@ -1,0 +1,6 @@
+{
+  "id": 750,
+  "published": 1615057200,
+  "title": "Optimal Card Stacking",
+  "content": "<p>\nCard Stacking is a game on a computer starting with an array of $N$ cards labelled $1,2,\\ldots,N$.\nA stack of cards can be moved by dragging horizontally with the mouse to another stack but only when the resulting stack is in sequence. The goal of the game is to combine the cards into a single stack using minimal total drag distance.\n</p>\n\n<div style=\"text-align:center;\">\n<img src=\"project/images/p750_optimal_card_stacking.png\" class=\"dark_img\" alt=\"\" /></div>\n\n<p>\nFor the given arrangement of 6 cards the minimum total distance is $1 + 3 + 1 + 1 + 2 = 8$.\n</p>\n\n<p>\nFor $N$ cards, the cards are arranged so that the card at position $n$ is $3^n\\bmod(N+1), 1\\le n\\le N$.\n</p>\n<p>\nWe define $G(N)$ to be the minimal total drag distance to arrange these cards into a single sequence.<br />\nFor example, when $N = 6$ we get the sequence $3,2,6,4,5,1$ and $G(6) = 8$.<br />\nYou are given $G(16) = 47$.\n</p>\n\n<p>\nFind $G(976)$.\n</p>\n\n<p>\nNote: $G(N)$ is not defined for all values of $N$.\n</p>\n"
+}

@@ -1,0 +1,6 @@
+{
+  "id": 446,
+  "published": 1384639200,
+  "title": "Retractions B",
+  "content": "<p>\nFor every integer $n&gt;1$, the family of functions $f_{n,a,b}$ is defined \nby  <br />\n$f_{n,a,b}(x)\\equiv a x + b \\mod n\\,\\,\\, $ for $a,b,x$ integer and  $0&lt; a &lt;n, 0 \\le b &lt; n,0 \\le x &lt; n$. </p>\n<p>\nWe will call $f_{n,a,b}$ a <i>retraction</i> if $\\,\\,\\, f_{n,a,b}(f_{n,a,b}(x)) \\equiv f_{n,a,b}(x) \\mod n \\,\\,\\,$ for every $0 \\le x &lt; n$.<br />\nLet $R(n)$ be the number of retractions for $n$.\n</p>\n<p>\n$\\displaystyle F(N)=\\sum_{n=1}^NR(n^4+4)$. <br /> \n$F(1024)=77532377300600$.<br /></p>\n<p>\nFind $F(10^7)$.<br />\nGive your answer modulo $1\\,000\\,000\\,007$.\n</p>\n"
+}

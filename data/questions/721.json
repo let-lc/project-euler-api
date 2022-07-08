@@ -1,0 +1,6 @@
+{
+  "id": 721,
+  "published": 1592701200,
+  "title": "High powers of irrational numbers",
+  "content": "<p>\nGiven is the function $f(a,n)=\\lfloor{(\\lceil{\\sqrt{a}\\:\\rceil}+\\sqrt{a}\\:)^n}\\rfloor$.<br />\n$\\lfloor{.}\\rfloor$ denotes the floor function and $\\lceil{.}\\rceil$ denotes the ceiling function.<br />\n$f(5,2)=27$ and $f(5,5)=3935$.\n</p>\n<p>\n$G(n) = \\displaystyle \\sum_{a=1}^n f(a, a^2).$<br />\n$G(1000) \\text{ mod  } 999\\,999\\,937=163861845. $<br />\nFind $G(5\\,000\\,000).$ Give your answer modulo $999\\,999\\,937$.\n</p>\n"
+}

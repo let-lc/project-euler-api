@@ -1,0 +1,6 @@
+{
+  "id": 586,
+  "published": 1484431200,
+  "title": "Binary Quadratic Form",
+  "content": "<p>\nThe number 209 can be expressed as $a^2 + 3ab + b^2$ in two distinct ways:\n</p>\n<p>\n$ \\qquad 209 = 8^2 + 3\\cdot 8\\cdot 5 + 5^2$ <br />\n$ \\qquad 209 = 13^2 + 3\\cdot13\\cdot 1 + 1^2$\n</p>\n<p>\nLet $f(n,r)$ be the number of integers $k$ not exceeding $n$ that can be expressed as $k=a^2 + 3ab + b^2$, with $a\\gt b&gt;0$ integers, in exactly $r$ different ways.\n</p>\n<p>\nYou are given that $f(10^5, 4) = 237$ and $f(10^8, 6) = 59517$.\n</p>\n<p>\nFind $f(10^{15}, 40)$.\n</p>\n"
+}

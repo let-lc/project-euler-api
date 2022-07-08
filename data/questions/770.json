@@ -1,0 +1,6 @@
+{
+  "id": 770,
+  "published": 1635674400,
+  "title": "Delphi Flip",
+  "content": "<p>\nA and B play a game. A has originally $1$ gram of gold and B has an unlimited amount.\nEach round goes as follows:\n</p>\n<ul>\n<li>\nA chooses and displays, $x$, a nonnegative real number no larger than the amount of gold that A has.</li>\n<li>\nEither B chooses to TAKE. Then A gives B $x$ grams of gold.</li>\n<li>\nOr B chooses to GIVE. Then B gives A $x$ grams of gold.</li>\n</ul>\n<p>\nB TAKEs $n$ times and GIVEs $n$ times after which the game finishes.</p>\n<p>\nDefine $g(X)$ to be the smallest value of $n$ so that A can guarantee to have at least $X$ grams of gold at the end of the game. You are given $g(1.7) = 10$.\n</p>\n<p>\nFind $g(1.9999)$.\n</p>\n"
+}

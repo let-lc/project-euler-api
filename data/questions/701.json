@@ -1,0 +1,6 @@
+{
+  "id": 701,
+  "published": 1581177600,
+  "title": "Random connected area",
+  "content": "<p>\nConsider a rectangle made up of $W \\times H$ square cells each with area 1.<br /> Each cell is independently coloured black with probability 0.5 otherwise white. Black cells sharing an edge are assumed to be connected.<br />Consider the maximum area of connected cells.</p>\n\n<p>\nDefine $E(W,H)$ to be the expected value of this maximum area.\nFor example, $E(2,2)=1.875$, as illustrated below.\n</p>\n<div class=\"center\">\n<img src=\"project/images/p701_randcon.png\" alt=\"3 random connected area\" /></div>\n<p>\nYou are also given $E(4, 4) = 5.76487732$, rounded to 8 decimal places.\n</p>\n<p>\nFind $E(7, 7)$, rounded to 8 decimal places.\n</p>\n\n"
+}

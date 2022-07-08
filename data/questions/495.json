@@ -1,0 +1,6 @@
+{
+  "id": 495,
+  "published": 1419717600,
+  "title": "Writing n as the product of k distinct positive integers",
+  "content": "<p>Let <var>W</var>(<var>n</var>,<var>k</var>) be the number of ways in which <var>n</var> can be written as the product of <var>k</var> distinct positive integers.</p>\n<p>For example, <var>W</var>(144,4) = 7. There are 7 ways in which 144 can be written as a product of 4 distinct positive integers:</p>\n<p></p><ul><li>144 = 1×2×4×18</li>\n<li>144 = 1×2×8×9</li>\n<li>144 = 1×2×3×24</li>\n<li>144 = 1×2×6×12</li>\n<li>144 = 1×3×4×12</li>\n<li>144 = 1×3×6×8</li>\n<li>144 = 2×3×4×6</li>\n</ul><p>Note that permutations of the integers themselves are not considered distinct.</p>\n<p>Furthermore, <var>W</var>(100!,10) modulo 1 000 000 007 = 287549200.</p>\n<p>Find <var>W</var>(10000!,30) modulo 1 000 000 007.</p>\n"
+}

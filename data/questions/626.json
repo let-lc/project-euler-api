@@ -1,0 +1,6 @@
+{
+  "id": 626,
+  "published": 1525543200,
+  "title": "Counting Binary Matrices",
+  "content": "<p>A binary matrix is a matrix consisting entirely of 0s and 1s. Consider the following transformations that can be performed on a binary matrix:</p>\n\n<ul><li>Swap any two rows</li>\n<li>Swap any two columns</li>\n<li>Flip all elements in a single row (1s become 0s, 0s become 1s)</li>\n<li>Flip all elements in a single column</li>\n</ul><p>Two binary matrices $A$ and $B$ will be considered <i>equivalent</i> if there is a sequence of such transformations that when applied to $A$ yields $B$. For example, the following two matrices are equivalent:</p>\n$A=\\begin{pmatrix} \n  1 &amp; 0 &amp; 1 \\\\ \n  0 &amp; 0 &amp; 1 \\\\\n  0 &amp; 0 &amp; 0 \\\\\n\\end{pmatrix} \\quad B=\\begin{pmatrix} \n  0 &amp; 0 &amp; 0 \\\\ \n  1 &amp; 0 &amp; 0 \\\\\n  0 &amp; 0 &amp; 1 \\\\\n\\end{pmatrix}$\n<p>via the sequence of two transformations \"Flip all elements in column 3\" followed by \"Swap rows 1 and 2\".</p>\n\n<p>Define $c(n)$ to be the maximum number of $n\\times n$ binary matrices that can be found such that no two are equivalent. For example, $c(3)=3$. You are also given that $c(5)=39$ and $c(8)=656108$.</p>\n\n<p>Find $c(20)$, and give your answer modulo $1\\,001\\,001\\,011$.</p>\n\n"
+}

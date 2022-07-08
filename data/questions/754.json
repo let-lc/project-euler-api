@@ -1,0 +1,6 @@
+{
+  "id": 754,
+  "published": 1617519600,
+  "title": "Product of Gauss Factorials",
+  "content": "<p>The <b>Gauss Factorial</b> of a number $n$ is defined as the product of all positive numbers $\\leq n$ that are relatively prime to $n$. For example $g(10)=1\\times 3\\times 7\\times 9 = 189$. </p>\n<p>Also we define\n$$\\displaystyle G(n) = \\prod_{i=1}^{n}g(i)$$</p>\n<p>You are given $G(10) = 23044331520000$.</p>\n\n<p>Find $G(10^8)$. Give your answer modulo $1\\,000\\,000\\,007$.</p>\n"
+}

@@ -1,0 +1,6 @@
+{
+  "id": 785,
+  "published": 1644735600,
+  "title": "Symmetric Diophantine equation",
+  "content": "<p>\nConsider the following Diophantine equation:\n$$15  (x^2 + y^2 + z^2) = 34  (xy + yz + zx)$$\nwhere $x$, $y$ and $z$ are positive integers.\n</p>\n<p>\nLet $S(N)$ be the sum of all solutions, $(x,y,z)$, of this equation such that, $1 \\le x \\le y \\le z \\le N$ and $\\gcd(x, y, z) = 1$.\n</p>\n<p>\nFor $N = 10^2$, there are three such solutions - $(1, 7, 16), (8, 9, 39), (11, 21, 72)$. So $S(10^2) = 184$.\n</p>\n<p>\nFind $S(10^9)$.\n</p>\n"
+}

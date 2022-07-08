@@ -1,0 +1,6 @@
+{
+  "id": 330,
+  "published": 1301198400,
+  "title": "Euler's Number",
+  "content": "An infinite sequence of real numbers <var>a</var>(<var>n</var>) is defined for all integers <var>n</var> as follows:\n$$a(n) = \\begin{cases}\n1 &amp; n \\lt 0\\\\\n\\sum \\limits_{i = 1}^{\\infty}{\\dfrac{a(n - i)}{i!}} &amp; n \\ge 0\n\\end{cases}$$\n\n<p>For example,<br /></p>\n\n<p>$a(0) = \\dfrac{1}{1!} + \\dfrac{1}{2!} + \\dfrac{1}{3!} + \\cdots = e - 1$<br />\n$a(1) = \\dfrac{e - 1}{1!} + \\dfrac{1}{2!} + \\dfrac{1}{3!} + \\cdots = 2e - 3$<br />\n$a(2) = \\dfrac{2e - 3}{1!} + \\dfrac{e - 1}{2!} + \\dfrac{1}{3!} + \\cdots = \\dfrac{7}{2}e - 6$</p>\n\n<p>with $e = 2.7182818...$ being Euler's constant.</p>\n\n<p>It can be shown that $a(n)$ is of the form $\\dfrac{A(n)e + B(n)}{n!}$ for integers $A(n)$ and $B(n)$.</p>\n\n<p>For example, $a(10) = \\dfrac{328161643e - 652694486}{10!}$.</p>\n\n<p>Find $A(10^9) + B(10^9)$ and give your answer mod 77 777 777.</p>\n"
+}
