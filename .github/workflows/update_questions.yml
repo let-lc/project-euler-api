@@ -1,0 +1,31 @@
+name: Update Questions
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # weekly
+  workflow_dispatch:
+    branches:
+      - main
+
+jobs:
+  question:
+    name: "Run question scrapers"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - name: Run Script
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm run title
+          pnpm run question
+          pnpm run image
+      - name: Commit
+        run: |
+          git config user.name "Liuming Chen"
+          git config user.email "51524534+let-lc@users.noreply.github.com"
+          git add ./data
+          git commit -m "github action: question update" || echo "No new question."
+          git push
