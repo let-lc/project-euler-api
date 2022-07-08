@@ -4,21 +4,43 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "scrape": "node ./data/update.js"
+    "lint": "next lint",
+    "answer": "node ./data/update-answer.js",
+    "question": "node ./data/update-question.js",
+    "title": "node ./data/update-title.js",
+    "image": "node ./data/image-check.js"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "@monaco-editor/react": "^4.4.5",
     "axios": "^0.27.2",
-    "next": "^12.0.8",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "clsx": "^1.2.1",
+    "csv-parse": "^5.2.2",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.0",
+    "localforage": "^1.10.0",
+    "next": "^12.2.1",
+    "re-resizable": "^6.9.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-toastify": "^9.0.5",
+    "react-tooltip": "^4.2.21",
+    "zustand": "4.0.0-rc.1"
   },
   "devDependencies": {
-    "@types/node": "^16.11.42",
-    "@types/react": "^18.0.14",
-    "@types/react-dom": "^18.0.5",
+    "@tailwindcss/forms": "^0.5.2",
+    "@types/file-saver": "^2.0.5",
+    "@types/node": "^16.11.43",
+    "@types/react": "^17.0.47",
+    "@types/react-dom": "^17.0.17",
     "autoprefixer": "^10.4.4",
+    "eslint": "^8.19.0",
+    "eslint-config-next": "^12.2.1",
     "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.23",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.12",
+    "tailwindcss": "^3.1.5",
     "typescript": "^4.6.3"
   }
 }
