@@ -11,6 +11,8 @@ jobs:
   question:
     name: "Run question scrapers"
     runs-on: ubuntu-latest
+    env:
+      TOKEN: ${{ secrets.TOKEN }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
