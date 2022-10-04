@@ -2,6 +2,23 @@ const fs = require('fs');
 const path = require('path');
 const { default: axios } = require('axios');
 
+const downloadFile = async (url, filePath) => {
+  try {
+    const response = await axios({
+      method: 'GET',
+      url: url,
+      responseType: 'stream',
+    });
+
+    const w = response.data.pipe(fs.createWriteStream(filePath));
+    w.on('finish', () => {
+      console.log(`Downloaded: ${url}`);
+    });
+  } catch (err) {
+    throw new Error(err);
+  }
+};
+
 // Check img tag in the question contents, get the "src" and download the image to "/public/playground/project/images".
 fs.readdirSync(path.join(__dirname, 'questions'))
   .sort((a, b) =>
@@ -31,20 +48,3 @@ fs.readdirSync(path.join(__dirname, 'questions'))
       });
     }
   });
-
-const downloadFile = async (url, filePath) => {
-  try {
-    const response = await axios({
-      method: 'GET',
-      url: url,
-      responseType: 'stream',
-    });
-
-    const w = response.data.pipe(fs.createWriteStream(filePath));
-    w.on('finish', () => {
-      console.log(`Downloaded: ${url}`);
-    });
-  } catch (err) {
-    throw new Error(err);
-  }
-};
