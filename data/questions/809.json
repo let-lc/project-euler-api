@@ -1,0 +1,6 @@
+{
+  "id": 809,
+  "published": 1664089200,
+  "title": "Rational Recurrence Relation ",
+  "content": "<p>\nThe following is a function defined for all positive rational values of $x$.\n</p>\n$$\tf(x)=\\begin{cases} x  &amp;x\\text{ is integral}\\\\\n\t\t\t\t\tf(\\frac 1{1-x})\t&amp;x \\lt 1\\\\\n\t\t\t\t\tf\\Big(\\frac 1{\\lceil x\\rceil -x}-1+f(x-1)\\Big)\t&amp;\\text{otherwise}\\end{cases}\t$$\n<p>\nFor example, $f(3/2)=3$, $f(1/6) = 65533$ and $f(13/10) = 7625597484985$.\n</p>\n<p>\nFind $f(22/7)$. Give your answer modulo $10^{15}$.\n</p>\n"
+}

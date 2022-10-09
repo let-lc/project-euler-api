@@ -1,0 +1,6 @@
+{
+  "id": 807,
+  "published": 1662858000,
+  "title": "Loops of Ropes",
+  "content": "<p>Given a circle $C$ and an integer $n &gt; 1$, we perform the following operations.</p>\n\n<p>In step $0$, we choose two uniformly random points $R_0$ and $B_0$ on $C$.<br />\nIn step $i$ ($1 \\leq i &lt; n$), we first choose a uniformly random point $R_i$ on $C$ and connect the points $R_{i - 1}$ and $R_i$ with a red rope; then choose a uniformly random point $B_i$ on $C$ and connect the points $B_{i - 1}$ and $B_i$ with a blue rope.<br />\nIn step $n$, we first connect the points $R_{n - 1}$ and $R_0$ with a red rope; then connect the points $B_{n - 1}$ and $B_0$ with a blue rope.<br />\nEach rope is straight between its two end points, and lies above all previous ropes.</p>\n\n<p>After step $n$, we get a loop of red ropes, and a loop of blue ropes.<br />\nSometimes the two loops can be separated, as in the left figure below; sometimes they are \"linked\", hence cannot be separated, as in the middle and right figures below.</p>\n\n<div style=\"text-align:center;\">\n<img src=\"project/images/p807.jpg\" class=\"dark_img\" alt=\"\" />\n</div>\n\n<p>Let $P(n)$ be the probability that the two loops can be separated.<br />\nFor example, $P(3) = \\frac{11}{20}$ and $P(5) \\approx 0.4304177690$.</p>\n\n<p>Find $P(80)$, rounded to $10$ digits after decimal point.</p>\n"
+}

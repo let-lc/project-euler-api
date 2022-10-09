@@ -1,0 +1,6 @@
+{
+  "id": 808,
+  "published": 1663473600,
+  "title": "Reversible prime squares",
+  "content": "<p>\nBoth 169 and 961 are the square of a prime. 169 is the reverse of 961.\n</p>\n<p>\nWe call a number a <i>reversible prime square </i> if:</p>\n<ol>\n<li>It is not a palindrome, and</li>\n<li>It is the square of a prime, and</li>\n<li>Its reverse is also the square of a prime.</li>\n</ol>\n<p>\n169 and 961 are not palindromes, so both are reversible prime squares.\n</p>\n<p>\nFind the sum of the first 50 reversible prime squares.\n</p>\n"
+}
