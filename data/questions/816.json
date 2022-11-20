@@ -1,0 +1,6 @@
+{
+  "id": 816,
+  "published": 1668312000,
+  "title": "Shortest distance among points",
+  "content": "<p>We create an array of points  $P_n$ in a two dimensional plane using the following random number generator:<br />\n$s_0=290797$<br />\n$s_{n+1}={s_n}^2 \\bmod 50515093$\n<br /> <br />\n$P_n=(s_{2n},s_{2n+1})$</p>\n<p>\nLet $d(k)$  be the shortest distance of any two (distinct) points among $P_0, \\cdots, P_{k - 1}$.<br />\nE.g. $d(14)=546446.466846479$\n</p>\n<p>\nFind $d(2000000)$. Give your answer rounded to 9 places after the decimal point.\n</p>\n"
+}
