@@ -1,0 +1,6 @@
+{
+  "id": 822,
+  "published": 1671919200,
+  "title": "Square the Smallest",
+  "content": "<p>\nA list initially contains the numbers $2, 3, \\dots, n$.<br />\nAt each round, the smallest number in the list is replaced by its square. If there is more than one such number, then only one of them is replaced.\n</p>\n<p>\nFor example, below are the first three rounds for $n = 5$:\n$$[2, 3, 4, 5] \\xrightarrow{(1)} [4, 3, 4, 5] \\xrightarrow{(2)} [4, 9, 4, 5] \\xrightarrow{(3)} [16, 9, 4, 5].$$\n</p>\n<p>\nLet $S(n, m)$ be the sum of all numbers in the list after $m$ rounds.<br /><br />\nFor example, $S(5, 3) = 16 + 9 + 4 + 5 = 34$. Also $S(10, 100) \\equiv 845339386 \\pmod{1234567891}$.\n</p>\n<p>\nFind $S(10^4, 10^{16})$. Give your answer modulo $1234567891$.\n</p>\n"
+}
