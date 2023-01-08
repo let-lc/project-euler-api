@@ -1,0 +1,6 @@
+{
+  "id": 823,
+  "published": 1672534800,
+  "title": "Factor Shuffle",
+  "content": "<p>A list initially contains the numbers $2, 3, \\dots, n$.<br />\nAt each round, every number in the list is divided by its smallest prime factor. Then the product of these smallest prime factors is added to the list as a new number. Finally, all numbers that become $1$ are removed from the list.</p>\n\n<p>For example, below are the first three rounds for $n = 5$:\n$$[2, 3, 4, 5] \\xrightarrow{(1)} [2, 60] \\xrightarrow{(2)} [30, 4] \\xrightarrow{(3)} [15, 2, 4].$$\nLet $S(n, m)$ be the sum of all numbers in the list after $m$ rounds.<br />\nFor example, $S(5, 3) = 15 + 2 + 4 = 21$. Also $S(10, 100) = 257$.</p>\n\n<p>Find $S(10^4, 10^{16})$. Give your answer modulo $1234567891$.</p>\n"
+}
