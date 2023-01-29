@@ -1,0 +1,6 @@
+{
+  "id": 827,
+  "published": 1674910800,
+  "title": "Pythagorean Triple Occurrence",
+  "content": "<p>\nDefine $Q(n)$ to be the smallest number that occurs in exactly $n$ <b>Pythagorean triples</b> $(a,b,c)$ where $a \\lt b \\lt c$.</p>\n\n<p>\nFor example, 15 is the smallest number occurring in exactly 5 Pythagorean triples:\n$$(9,12,\\mathbf{15})\\quad (8,\\mathbf{15},17)\\quad (\\mathbf{15},20,25)\\quad (\\mathbf{15},36,39)\\quad (\\mathbf{15},112,113)$$\nand so $Q(5) = 15$</p>\n\n<p>\nYou are also given $Q(10)=48$ and $Q(10^3)=8064000$.</p>\n\n<p>\nFind $\\displaystyle \\sum_{k=1}^{18} Q(10^k)$. Give your answer modulo $409120391$.</p>\n\n\n"
+}
