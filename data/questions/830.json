@@ -1,0 +1,6 @@
+{
+  "id": 830,
+  "published": 1676757600,
+  "title": "Binomials and Powers",
+  "content": "<p>\nLet $\\displaystyle S(n)=\\sum\\limits_{k=0}^{n}\\binom{n}{k}k^n$.</p>\n\n<p>\nYou are given, $S(10)=142469423360$.</p>\n\n<p>\nFind $S(10^{18})$. Submit your answer modulo $83^3 89^3 97^3$.</p>\n\n"
+}
