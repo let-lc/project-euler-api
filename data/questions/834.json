@@ -1,0 +1,6 @@
+{
+  "id": 834,
+  "published": 1679220000,
+  "title": "Add and Divide",
+  "content": "<p>\nA sequence is created by starting with a positive integer $n$ and incrementing by $(n+m)$ at the $m^{th}$ step. \nIf $n=10$, the resulting sequence will be $21,33,46,60,75,91,108,126,\\ldots$.</p>\n\n<p>\nLet $S(n)$ be the set of indices $m$, for which the $m^{th}$ term in the sequence is divisible by $(n+m)$.<br> \nFor example, $S(10)=\\{5,8,20,35,80\\}$.</p>\n\n<p>\nDefine $T(n)$ to be the sum of the indices in $S(n)$. For example, $T(10) = 148$ and $T(10^2)=21828$.</p>\n\n<p>\nLet $\\displaystyle U(N)=\\sum_{n=3}^{N}T(n)$. You are given, $U(10^2)=612572$.</p>\n\n<p>\nFind $U(1234567)$.</p>\n\n"
+}
