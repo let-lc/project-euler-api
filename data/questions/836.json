@@ -1,0 +1,6 @@
+{
+  "id": 836,
+  "published": 1680364800,
+  "title": "A Bold Proposition",
+  "content": "<p>Let $A$ be an <b>affine plane</b> over a <b>radically integral local field</b> $F$ with residual characteristic $p$.</p>\n\n<p>We consider an <b>open oriented line section</b> $U$ of $A$ with normalized Haar measure $m$.</p>\n\n<p>Define $f(m, p)$ as the maximal possible discriminant of the <b>jacobian</b> associated to the <b>orthogonal kernel embedding</b> of $U$ <span style=\"white-space:nowrap;\">into $A$.</span></p>\n\n<p>Find $f(20230401, 57)$. Give as your answer the concatenation of the first letters of each bolded word.</p>\n"
+}
