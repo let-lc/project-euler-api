@@ -1,0 +1,6 @@
+{
+  "id": 840,
+  "published": 1682211600,
+  "title": "Sum of Products",
+  "content": "<p>A <b>partition</b> of $n$ is a set of positive integers for which the sum equals $n$.<br>\nThe partitions of 5 are:<br>\n$\\{5\\},\\{1,4\\},\\{2,3\\},\\{1,1,3\\},\\{1,2,2\\},\\{1,1,1,2\\}$ and $\\{1,1,1,1,1\\}$.\n</p>\n<p>\nFurther we define the function $D(p)$ as:<br>\n$$\n\\begin{align}\n\\begin{split}\nD(1) &amp;= 1 \\\\\nD(p) &amp;= 1, \\text{ for any prime } p \\\\\nD(pq) &amp;= D(p)q + pD(q), \\text{ for any positive integers } p,q &gt;1.\n\\end{split}\n\\end{align}\n$$\n</p>\n<p>\nNow let $\\{a_1, a_2,\\ldots,a_k\\}$ be a partition of $n$.<br>\nWe assign to this particular partition the value:<br> $$P=\\prod_{j=1}^{k}D(a_j). $$\n</p>\n<p>\n$G(n)$ is the sum of $P$ for all partitions of $n$.<br>\nWe can verify that $G(10) = 164$.\n</p>\nWe also define:\n$$S(N)=\\sum_{n=1}^{N}G(n).$$\nYou are given $S(10)=396$.<br>\nFind $S(5\\times 10^4) \\mod 999676999$.\n\n"
+}
