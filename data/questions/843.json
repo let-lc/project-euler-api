@@ -1,0 +1,6 @@
+{
+  "id": 843,
+  "published": 1684058400,
+  "title": "Periodic Circles",
+  "content": "<p>\nThis problem involves an iterative procedure that begins with a circle of $n\\ge 3$ integers. At each step every number is simultaneously replaced with the absolute difference of its two neighbours.</p>\n\n<p>\nFor any initial values, the procedure eventually becomes periodic.</p>\n\n<p>\nLet $S(N)$ be the sum of all possible periods for $3\\le n \\leq N$. For example, $S(6) = 6$, because the possible periods for $3\\le n \\leq 6$ are $1, 2, 3$. All these $n$ can have period $1$; in addition $n=5$ can have period $3$ and $n=6$ can have period $2$.</p>\n\n<p>\nYou are also given $S(30) = 20381$.</p>\n\n<p>\nFind $S(100)$.</p>\n"
+}
