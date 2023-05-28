@@ -1,0 +1,6 @@
+{
+  "id": 845,
+  "published": 1685203200,
+  "title": "Prime Digit Sum",
+  "content": "<p>\nLet $D(n)$ be the $n$-th largest positive integer that has the sum of its digits a prime.<br>\nFor example, $D(61) = 157$ and $D(10^8) = 403539364$.</p>\n\n<p>\nFind $D(10^{16})$.</p>\n\n"
+}
