@@ -1,0 +1,6 @@
+{
+  "id": 846,
+  "published": 1685818800,
+  "title": "Magic Bracelets",
+  "content": "<p>\nA <i>bracelet</i> is made by connecting at least three numbered beads in a circle. Each bead can only display $1$, $2$, or any number of the form $p^k$ or $2p^k$ for odd prime $p$.</p>\n\n<p>\nIn addition a <i>magic bracelet</i> must satisfy the following two conditions:</p>\n<ul>\n<li> no two beads display the same number</li>\n<li> the product of the numbers of any two adjacent beads is of the form $x^2+1$</li>\n</ul>\n\n<div style=\"text-align:center;\">\n<img src=\"resources/images/0846_diagram.jpg?1684224225\" alt=\"0846_diagram.jpg\" width=\"640\" height=\"225\">\n</div>\n\n<p>\nDefine the <i>potency</i> of a magic bracelet to be the sum of numbers on its beads. </p>\n<p>\nThe example is a magic bracelet with five beads which has a potency of 155. </p>\n\n<p>\nLet $F(N)$ be the sum of the potency of each magic bracelet which can be formed using positive integers not exceeding $N$, where rotations and reflections of an arrangement are considered equivalent. You are given $F(20)=258$ and $F(10^2)=538768$.</p>\n\n<p>\nFind $F(10^6)$.</p>\n\n\n\n"
+}
