@@ -1,0 +1,6 @@
+{
+  "id": 851,
+  "published": 1688896800,
+  "title": "SOP and POS",
+  "content": "<p>\nLet $n$ be a positive integer and let $E_n$ be the set of $n$-tuples of strictly positive integers.</p>\n\n<p>\nFor $u = (u_1, \\cdots, u_n)$ and $v = (v_1, \\cdots, v_n)$ two elements of $E_n$, we define:</p>\n\n<ul>\n<li>the <dfn>Sum Of Products</dfn> of $u$ and $v$, denoted by $\\langle u, v\\rangle$, as the sum $\\displaystyle\\sum_{i = 1}^n u_i v_i$;</li>\n<li>the <dfn>Product Of Sums</dfn> of $u$ and $v$, denoted by $u \\star v$, as the product $\\displaystyle\\prod_{i = 1}^n (u_i + v_i)$.</li></ul>\n\n<p>\nLet $R_n(M)$ be the sum of $u \\star v$ over all ordered pairs $(u, v)$ in $E_n$ such that $\\langle u, v\\rangle = M$.<br>\nFor example: $R_1(10) = 36$, $R_2(100) = 1873044$, $R_2(100!) \\equiv 446575636 \\bmod 10^9 + 7$.</p>\n\n<p>\nFind $R_6(10000!)$. Give your answer modulo $10^9+7$.</p>\n"
+}
