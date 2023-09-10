@@ -1,0 +1,6 @@
+{
+  "id": 854,
+  "published": 1694275200,
+  "title": "Pisano Periods 2",
+  "content": "<p>\nFor every positive integer $n$ the Fibonacci sequence modulo $n$ is periodic. The period depends on the value of $n$.\nThis period is called the <strong>Pisano period</strong> for $n$, often shortened to $\\pi(n)$.</p>\n\n<p>\nDefine $M(p)$ as the largest integer $n$ such that $\\pi(n) = p$, and define $M(p) = 1$ if there is no such $n$.<br>\nFor example, there are three values of $n$ for which $\\pi(n)$ equals $18$: $19, 38, 76$. Therefore $M(18) = 76$.</p>\n\n<p>\nLet the product function $P(n)$ be: $$P(n)=\\prod_{p = 1}^{n}M(p).$$\nYou are given: $P(10)=264$.</p>\n\n<p>\nFind $P(1\\,000\\,000)\\bmod 1\\,234\\,567\\,891$.</p>\n"
+}
