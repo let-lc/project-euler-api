@@ -1,0 +1,6 @@
+{
+  "id": 856,
+  "published": 1695506400,
+  "title": "Waiting for a Pair",
+  "content": "<p>A standard 52-card deck comprises 13 ranks in four suits. A <i>pair</i> is a set of two cards of the same rank.</p>\n\n<p>Cards are drawn, without replacement, from a well shuffled 52-card deck waiting for consecutive cards that form a pair. For example, the probability of finding a pair in the first two draws is $\\frac{1}{17}$.</p>\n\n<p>Cards are drawn until either a consecutive pair is found or the pack is exhausted waiting for one. In the latter case we say that all 52 cards were drawn.</p>\n\n<p>Find the expected number of cards that were drawn. Give your answer rounded to eight places after the decimal point.</p>\n"
+}
