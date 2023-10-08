@@ -1,0 +1,6 @@
+{
+  "id": 857,
+  "published": 1696122000,
+  "title": "Beautiful Graphs",
+  "content": "<p>\nA graph is made up of vertices and coloured edges. \nBetween every two distinct vertices there must be exactly one of the following:</p>\n\n<ul>\n<li>A red directed edge one way, and a blue directed edge the other way</li>\n<li>A green undirected edge</li>\n<li>A brown undirected edge</li>\n</ul>\n\nSuch a graph is called <i>beautiful</i> if \n\n<ul>\n<li>A cycle of edges contains a red edge <b>if and only if</b> it also contains a blue edge</li>\n<li>No triangle of edges is made up of entirely green or entirely brown edges</li>\n</ul>\n\n<p>\nBelow are four distinct examples of beautiful graphs on three vertices:\n</p>\n<img src=\"resources/images/0857_GoodGraphs.jpg?1692412187\" alt=\"0857_GoodGraphs.jpg\">\n\n<p>\nBelow are four examples of graphs that are not beautiful:</p>\n<img src=\"resources/images/0857_BadGraphs.jpg?1692412205\" alt=\"0857_BadGraphs.jpg\">\n\n<p>\nLet $G(n)$ be the number of beautiful graphs on the labelled vertices: $1,2,\\ldots,n$.\nYou are given $G(3)=24$, $G(4)=186$ and $G(15)=12472315010483328$.</p>\n\n<p>\nFind $G(10^7)$. Give your answer modulo $10^9+7$.</p>\n\n\n\n"
+}
