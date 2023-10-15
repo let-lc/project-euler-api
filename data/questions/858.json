@@ -1,0 +1,6 @@
+{
+  "id": 858,
+  "published": 1696737600,
+  "title": "LCM",
+  "content": "<p>\nDefine $G(N) = \\sum_S \\operatorname{lcm}(S)$ where $S$ ranges through all subsets of $\\{1, \\dots, N\\}$ and $\\operatorname{lcm}$ denotes the lowest common multiple. Note that the $\\operatorname{lcm}$ of the empty set is $1$.</p>\n\n<p>\nYou are given $G(5) = 528$ and $G(20) = 8463108648960$.</p>\n\n<p>\nFind $G(800)$. Give your answer modulo $10^9 + 7$.</p>\n"
+}
