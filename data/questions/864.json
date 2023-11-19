@@ -1,0 +1,6 @@
+{
+  "id": 864,
+  "published": 1700344800,
+  "title": "Square + 1 = Squarefree",
+  "content": "<p>Let $C(n)$ be the number of squarefree integers of the form $x^2 + 1$ such that $1 \\le x \\le n$.</p>\n\n<p>For example, $C(10) = 9$ and $C(1000) = 895$.</p>\n\n<p>Find $C(123567101113)$.</p>\n"
+}
