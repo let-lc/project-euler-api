@@ -1,0 +1,6 @@
+{
+  "id": 865,
+  "published": 1700960400,
+  "title": "Triplicate Numbers",
+  "content": "<p>\nA <dfn>triplicate number</dfn> is a positive integer such that, after repeatedly removing three consecutive identical digits from it, all its digits can be removed.</p>\n\n<p>\nFor example, the integer $122555211$ is a triplicate number:\n$$122{\\color{red}555}211 \\rightarrow 1{\\color{red}222}11\\rightarrow{\\color{red}111}\\rightarrow.$$\nOn the other hand, neither $663633$ nor $9990$ are triplicate numbers.</p>\n\n<p>\nLet $T(n)$ be how many triplicate numbers are less than $10^n$.</p>\n\n<p>\nFor example, $T(6) = 261$ and $T(30) = 5576195181577716$.</p>\n\n<p>\nFind $T(10^4)$. Give your answer modulo $998244353$.</p>\n"
+}
