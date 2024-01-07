@@ -1,0 +1,6 @@
+{
+  "id": 871,
+  "published": 1704567600,
+  "title": "Drifting Subsets",
+  "content": "<p>\nLet $f$ be a function from a finite set $S$ to itself. A <dfn>drifting subset</dfn> for $f$ is a subset $A$ of $S$ such that the number of elements in the union $A \\cup f(A)$ is equal to twice the number of elements of $A$.<br>\nWe write $D(f)$ for the maximal number of elements among all drifting subsets for $f$.</p>\n\n<p>\nFor a positive integer $n$, define $f_n$ as the function from $\\{0, 1, \\dots, n - 1\\}$ to itself sending $x$ to $x^3 + x + 1 \\bmod n$.<br>\nYou are given $D(f_5) = 1$ and $D(f_{10}) = 3$.</p>\n\n<p>\nFind $\\displaystyle\\sum_{i = 1}^{100} D(f_{10^5 + i})$.</p>\n"
+}
