@@ -1,0 +1,6 @@
+{
+  "id": 872,
+  "published": 1705183200,
+  "title": "Recursive Tree",
+  "content": "<p>A sequence of rooted trees $T_n$ is constructed such that $T_n$ has $n$ nodes numbered $1$ to $n$.</p>\n\n<p>The sequence starts at $T_1$, a tree with a single node as a root with the number $1$.</p>\n\n<p>For $n &gt; 1$, $T_n$ is constructed from $T_{n-1}$ using the following procedure:\n</p><ol>\n<li>Trace a path from the root of $T_{n-1}$ to a leaf by following the largest-numbered child at each node.</li>\n<li>Remove all edges along the traced path, disconnecting all nodes along it from their parents.</li>\n<li>Connect all orphaned nodes directly to a new node numbered $n$, which becomes the root of $T_n$.</li>\n</ol>\n\n\n<p>For example, the following figure shows $T_6$ and $T_7$. The path traced through $T_6$ during the construction of $T_7$ is coloured red.</p>\n<div class=\"center\">\n<img src=\"resources/images/0872_tree.png?1703839264\" alt=\"0872_tree.png\"></div>\n\n\n<p>Let $f(n, k)$ be the sum of the node numbers along the path connecting the root of $T_n$ to the node $k$, including the root and the node $k$. For example, $f(6, 1) = 6 + 5 + 1 = 12$ and $f(10, 3) = 29$.</p>\n\n<p>Find $f(10^{17}, 9^{17})$.</p>\n\n\n"
+}
