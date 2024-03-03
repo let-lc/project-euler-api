@@ -1,0 +1,6 @@
+{
+  "id": 880,
+  "published": 1709406000,
+  "title": "Nested Radicals",
+  "content": "<p>$(x,y)$ is called a <i>nested radical pair</i> if $x$ and $y$ are non-zero integers such that $\\dfrac{x}{y}$ is not a cube of a rational number, and there exist integers $a$, $b$ and $c$ such that:</p>\n$$\\sqrt{\\sqrt[3]{x}+\\sqrt[3]{y}}=\\sqrt[3]{a}+\\sqrt[3]{b}+\\sqrt[3]{c}$$\n<p>For example, both $(-4,125)$ and $(5,5324)$ are nested radical pairs:</p>\n$$\n\\begin{align*}\n\\begin{split}\n\\sqrt{\\sqrt[3]{-4}+\\sqrt[3]{125}}\t&amp;= \\sqrt[3]{-1}+\\sqrt[3]{2}+\\sqrt[3]{4}\\\\\n\\sqrt{\\sqrt[3]{5}+\\sqrt[3]{5324}}\t&amp;= \\sqrt[3]{-2}+\\sqrt[3]{20}+\\sqrt[3]{25}\\\\\n\\end{split}\n\\end{align*}\n$$\n\n<p>Let $H(N)$ be the sum of $|x|+|y|$ for all the nested radical pairs $(x, y)$ where $|x| \\leq |y|\\leq N$.<br> \nFor example, $H(10^3)=2535$.</p>\n\n<p>Find $H(10^{15})$. Give your answer modulo $1031^3+2$.</p>\n\n"
+}
