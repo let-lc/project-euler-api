@@ -5,7 +5,7 @@ const fs = require("fs");
 
 axios
   .get(
-    "https://raw.githubusercontent.com/luckytoilet/projecteuler-solutions/master/Solutions.md"
+    "https://raw.githubusercontent.com/lucky-bai/projecteuler-solutions/master/Solutions.md"
   )
   .then((res) => {
     const answers = {};
@@ -20,4 +20,4 @@ axios
       __dirname + "/answers.json",
       JSON.stringify(answers, null, 2)
     );
-  });
+  }) 
