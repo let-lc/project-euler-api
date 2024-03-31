@@ -1,0 +1,6 @@
+{
+  "id": 883,
+  "published": 1711252800,
+  "title": "Remarkable Triangles",
+  "content": "<p>\nIn this problem we consider triangles drawn on a <b>hexagonal lattice</b>, where each lattice point in the plane has six neighbouring points equally spaced around it, all distance $1$ away.</p>\n\n<p>\nWe call a triangle <i>remarkable</i> if</p>\n<ul>\n<li>All three vertices and its <b>incentre</b> lie on lattice points</li>\n<li>At least one of its angles is $60^\\circ$</li>\n</ul>\n<img src=\"resources/images/0883_diagram.png?1707941179\" alt=\"0883_diagram.png\">\n\n<p>\nAbove are four examples of remarkable triangles, with $60^\\circ$ angles illustrated in red. Triangles A and B have inradius $1$; C has inradius $\\sqrt{3}$; D has inradius $2$.</p>\n\n<p>\nDefine $T(r)$ to be the number of remarkable triangles with inradius $\\le r$. Rotations and reflections, such as triangles A and B above, are counted separately; however direct translations are not. That is, the same triangle drawn in different positions of the lattice is only counted once.</p>\n\n<p>\nYou are given $T(0.5)=2$, $T(2)=44$, and $T(10)=1302$.</p>\n\n<p>\nFind $T(10^6)$.</p>\n\n"
+}
