@@ -1,0 +1,6 @@
+{
+  "id": 886,
+  "published": 1713013200,
+  "title": "Coprime Permutations",
+  "content": "<p>A permutation of $\\{2,3,\\ldots,n\\}$ is a rearrangement of these numbers. A <i>coprime permutation</i> is a rearrangement such that all pairs of adjacent numbers are coprime.</p>\n\n<p>Let $P(n)$ be the number of coprime permutations of $\\{2,3,\\ldots,n\\}$.</p>\n\n<p>For example, $P(4)=2$ as there are two coprime permutations, $(2,3,4)$ and $(4,3,2)$. You are also given $P(10)=576$.</p>\n\n<p>Find $P(34)$ and give your answer modulo $83\\,456\\,729$.</p>\n"
+}
