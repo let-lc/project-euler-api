@@ -1,0 +1,6 @@
+{
+  "id": 891,
+  "published": 1716091200,
+  "title": "Ambiguous Clock",
+  "content": "<p>\nA round clock only has three hands: hour, minute, second. All hands look identical and move continuously. Moreover, there is no number or reference mark so that the \"upright position\" is unknown. The clock functions the same as a normal 12-hour analogue clock.</p>\n\n<p>\nDespite the inconvenient design, for most time it is possible to tell the correct time (within a 12-hour cycle) from the clock, just by measuring accurately the angles between the hands. For example, if all three hands coincide, then the time must be 12:00:00.</p>\n\n<p>\nNevertheless, there are several moments where the clock shows an ambiguous reading. For example, the following moment could be either 1:30:00 or 7:30:00 (with the clock rotated $180^\\circ$).</p>\n\n<div style=\"text-align:center;\"><img src=\"resources/images/0891_clock.png?1714250610\" alt=\"0891_clock.png\"></div>\n\n<p>\nHow many ambiguous moments are there within a 12-hour cycle?</p>\n"
+}
