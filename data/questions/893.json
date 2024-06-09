@@ -1,0 +1,5 @@
+{
+  "id": 893,
+  "published": 1717322400,
+  "content": "<p>\nDefine $M(n)$ to be the minimum number of matchsticks needed to represent the number $n$.</p>\n\n<p>\nA number can be represented in digit form or as an expression involving addition and/or multiplication. Also order of operations must be followed, that is multiplication binding tighter than addition. Any other symbols or operations, such as brackets, subtraction, division or exponentiation, are not allowed.</p>\n\n<p>\nThe valid digits and symbols are shown below:</p>\n<div style=\"text-align:center;\">\n<img src=\"resources/images/0893_DigitDiagram.jpg?1714876316\" alt=\"0893_DigitDiagram.jpg\" height=\"433\" width=\"668\"></div>\n\n<p>\nFor example, $28$ needs $12$ matchsticks to represent it in digit form but representing it as $4\\times 7$ would only need $9$ matchsticks and as there is no way using fewer matchsticks $M(28) = 9$.</p>\n\n<p>\nDefine $\\displaystyle T(N) = \\sum_{n=1}^N M(n)$. You are given $T(100) = 916$.</p>\n\n<p>\nFind $T(10^6)$.</p>\n\n"
+}
