@@ -1,0 +1,5 @@
+{
+  "id": 896,
+  "published": 1719082800,
+  "content": "<p>\nA contiguous range of positive integers is called a <dfn>divisible range</dfn> if all the integers in the range can be arranged in a row such that the $n$-th term is a multiple of $n$.<br>\nFor example, the range $[6..9]$ is a divisible range because we can arrange the numbers as $7,6,9,8$.<br>\nIn fact, it is the $4$th divisible range of length $4$, the first three being $[1..4], [2..5], [3..6]$.</p>\n\n<p>\nFind the $36$th divisible range of length $36$.<br>\nGive as answer the smallest number in the range.</p>\n"
+}
