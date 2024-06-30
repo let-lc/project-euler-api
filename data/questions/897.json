@@ -1,0 +1,5 @@
+{
+  "id": 897,
+  "published": 1719698400,
+  "content": "<p>\nLet $G(n)$ denote the largest possible area of an <strong class=\"tooltip\">$n$-gon<span class=\"tooltiptext\">a polygon with $n$ sides</span></strong> contained in the region $\\{(x, y) \\in \\Bbb R^2: x^4 \\leq y \\leq 1\\}$.<br>\nFor example, $G(3) = 1$ and $G(5)\\approx 1.477309771$.<br>\nFind $G(101)$ rounded to nine digits after the decimal point.</p>\n"
+}
