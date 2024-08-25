@@ -1,0 +1,5 @@
+{
+  "id": 904,
+  "published": 1724504400,
+  "content": "<p>Given a right-angled triangle with integer sides, the smaller angle formed by the two medians drawn on the the two perpendicular sides is denoted by $\\theta$.\n</p>\n<div style=\"text-align:center;\"><img src=\"resources/images/0904_pythagorean_angle.png?1723895050\" alt=\"0904_Pythagorean_angle.jpg\"></div>\n<p>Let $f(\\alpha, L)$ denote the sum of the sides of the right-angled triangle minimizing the absolute difference between $\\theta$ and $\\alpha$ among all right-angled triangles with integer sides and hypotenuse not exceeding $L$.<br>If more than one triangle attains the minimum value, the triangle with the maximum area is chosen. All angles in this problem are measured in degrees.\n</p>\n<p>\nFor example, $f(30,10^2)=198$ and $f(10,10^6)= 1600158$.\n</p>\n<p>\nDefine $F(N,L)=\\sum_{n=1}^{N}f\\left(\\sqrt[3]{n},L\\right)$.<br>You are given $F(10,10^6)= 16684370$.</p>\n<p>\nFind $F(45000, 10^{10})$.</p>\n\n"
+}
