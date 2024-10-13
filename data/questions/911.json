@@ -1,0 +1,5 @@
+{
+  "id": 911,
+  "published": 1728198000,
+  "content": "<p>\nAn irrational number $x$ can be uniquely expressed as a <b>continued fraction</b> $[a_0; a_1,a_2,a_3,\\dots]$:\n$$\nx=a_{0}+\\cfrac{1}{a_1+\\cfrac{1}{a_2+\\cfrac{1}{a_3+{_\\ddots}}}}\n$$where $a_0$ is an integer and $a_1,a_2,a_3,\\dots$ are positive integers.\n</p>\n<p>\nDefine $k_j(x)$ to be the <b>geometric mean</b> of $a_1,a_2,\\dots,a_j$.<br> That is, $k_j(x)=(a_1a_2 \\cdots a_j)^{1/j}$.<br> Also define $k_\\infty(x)=\\lim_{j\\to \\infty} k_j(x)$.\n</p>\n<p>\nKhinchin proved that <b>almost all</b> irrational numbers $x$ have the same value of $k_\\infty(x)\\approx2.685452\\dots$ known as <b>Khinchin's constant</b>. However, there are some exceptions to this rule.\n</p>\n<p>\nFor $n\\geq 0$ define\n$$\\rho_n = \\sum_{i=0}^{\\infty} \\frac{2^n}{2^{2^i}}\n$$For example $\\rho_2$, with continued fraction beginning $[3; 3, 1, 3, 4, 3, 1, 3,\\dots]$, has $k_\\infty(\\rho_2)\\approx2.059767$.\n</p>\n<p>\nFind the geometric mean of $k_{\\infty}(\\rho_n)$ for $0\\leq n\\leq 50$, giving your answer rounded to six digits after the decimal point.\n</p>\n"
+}
