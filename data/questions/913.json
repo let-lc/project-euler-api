@@ -1,0 +1,5 @@
+{
+  "id": 913,
+  "published": 1729342800,
+  "content": "<p>\nThe numbers from $1$ to $12$ can be arranged into a $3 \\times 4$ matrix in either <strong>row-major</strong> or <strong>column-major</strong> order:\n$$R=\\begin{pmatrix}\n1 &amp; 2 &amp; 3 &amp; 4\\\\\n5 &amp; 6 &amp; 7 &amp; 8\\\\\n9 &amp; 10 &amp; 11 &amp; 12\\end{pmatrix}, C=\\begin{pmatrix}\n1 &amp; 4 &amp; 7 &amp; 10\\\\\n2 &amp; 5 &amp; 8 &amp; 11\\\\\n3 &amp; 6 &amp; 9 &amp; 12\\end{pmatrix}$$\nBy swapping two entries at a time, at least $8$ swaps are needed to transform $R$ to $C$.</p>\n\n<p>\nLet $S(n, m)$ be the minimal number of swaps needed to transform an $n\\times m$ matrix of $1$ to $nm$ from row-major order to column-major order. Thus $S(3, 4) = 8$.</p>\n\n<p>\nYou are given that the sum of $S(n, m)$ for $2 \\leq n \\leq m \\leq 100$ is $12578833$.</p>\n\n<p>\nFind the sum of $S(n^4, m^4)$ for $2 \\leq n \\leq m \\leq 100$.</p>\n"
+}

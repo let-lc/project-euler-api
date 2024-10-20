@@ -1,0 +1,5 @@
+{
+  "id": 912,
+  "published": 1728813600,
+  "content": "<p>\nLet $s_n$ be the $n$-th positive integer that does not contain three consecutive ones in its binary representation.<br>\nFor example, $s_1 = 1$ and $s_7 = 8$.\n</p>\n<p>\nDefine $F(N)$ to be the sum of $n^2$ for all $n\\leq N$ where $s_n$ is odd. You are given $F(10)=199$.\n</p>\n<p>\nFind $F(10^{16})$ giving your answer modulo $10^9+7$.\n</p>\n"
+}
