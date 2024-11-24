@@ -1,0 +1,5 @@
+{
+  "id": 917,
+  "published": 1731805200,
+  "content": "<p>The sequence $s_n$ is defined by $s_1 = 102022661$ and $s_n = s_{n-1}^2 \\bmod {998388889}$ for $n &gt; 1$.</p>\n\n<p>Let $a_n = s_{2n - 1}$ and $b_n = s_{2n}$ for $n=1,2,...$</p>\n\n<p>Define an $N \\times N$ matrix whose values are $M_{i,j} = a_i + b_j$.</p>\n\n<p>Let $A(N)$ be the minimal path sum from $M_{1,1}$ (top left) to $M_{N,N}$ (bottom right), where each step is either right or down.</p>\n\n<p>You are given $A(1) = 966774091$, $A(2) = 2388327490$ and $A(10) = 13389278727$.</p>\n\n<p>Find $A(10^7)$.</p>\n"
+}
