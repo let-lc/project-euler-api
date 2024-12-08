@@ -1,0 +1,5 @@
+{
+  "id": 919,
+  "published": 1733036400,
+  "content": "<p>We call a triangle <i>fortunate</i> if it has integral sides and at least one of its vertices has the property that the distance from it to the triangle's <b>orthocentre</b> is exactly half the distance from the same vertex to the triangle's <b>circumcentre</b>.</p>\n<center><img src=\"resources/images/0919_remarkablediagram.jpg?1731700434\" alt=\"0919_remarkablediagram.jpg\" height=\"400\"></center>\n<p>\nTriangle $ABC$ above is an example of a fortunate triangle with sides $(6,7,8)$. The distance from the vertex $C$ to the circumcentre $O$ is $\\approx 4.131182$, while the distance from $C$ to the orthocentre $H$ is half that, at $\\approx 2.065591$.\n</p>\n<p>\nDefine $S(P)$ to be the sum of $a+b+c$ over all fortunate triangles with sides $a\\leq b\\leq c$ and perimeter not exceeding $P$.\n</p>\n<p>\nFor example $S(10)=24$, arising from three triangles with sides $(1,2,2)$, $(2,3,4)$, and $(2,4,4)$. You are also given $S(100)=3331$.\n</p>\n<p>\nFind $S(10^7)$.\n</p>\n"
+}
